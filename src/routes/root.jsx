@@ -1,6 +1,5 @@
-import { Outlet, Link } from 'react-router-dom';
-
-import { pagePaths } from '../pages';
+import * as React from 'react';
+import { Outlet } from 'react-router-dom';
 
 export function Root() {
   return (

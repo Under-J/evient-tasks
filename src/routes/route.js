@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 
 import { Home, pagePaths, TodoList } from '../pages';

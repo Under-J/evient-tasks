@@ -15,7 +15,7 @@ export const Home = () => {
         {pages.map((page) => (
           <div className="col-3">
             <Link to={pagePaths.todo}>
-              <a>
+              <a href='/'>
                 <div className="card d-flex justify-content-center align-items-center p-3">
                   <h3>{page.title}</h3>
                 </div>
